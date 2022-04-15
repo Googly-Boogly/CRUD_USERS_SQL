@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+.vert-box {
+    display: inline-block;
+    vertical-align: middle;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.flex2 {
+    display: flex;
+    justify-content: flex-start;
+}
+.container {
+    border: 1px solid black;
+    
+}
+h1 {
+    text-align: center;
+}

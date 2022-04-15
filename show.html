@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+        <h1><a href="/users">Home</a></h1>
+        <h1>User {{ id12 }}</h1>
+        <div class="container">
+            <div class="flex2">
+                <div class="vert-box">
+                    <h1>Full Name: {{ name }}</h1>
+                </div>
+                <div class="vert-box">
+                    <h1>Email: {{ email }}</h1>
+                </div>
+                <div class="vert-box">
+                    <h1>Created_at: {{ cre_at }}</h1>
+                </div class="vert-box">
+                <div class="vert-box">
+                    <h1>Updated_at: {{ up_at }}</h1>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
